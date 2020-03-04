@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23751E4C240923630078BD67 /* VocabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23751E4B240923630078BD67 /* VocabModel.swift */; };
 		23EFC1272409087B00F73AC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFC1262409087B00F73AC7 /* AppDelegate.swift */; };
 		23EFC12B2409087B00F73AC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFC12A2409087B00F73AC7 /* ViewController.swift */; };
 		23EFC12E2409087B00F73AC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23EFC12C2409087B00F73AC7 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23751E4B240923630078BD67 /* VocabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabModel.swift; sourceTree = "<group>"; };
 		23EFC1232409087B00F73AC7 /* vocabList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vocabList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EFC1262409087B00F73AC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23EFC12A2409087B00F73AC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				23EFC1312409088200F73AC7 /* LaunchScreen.storyboard */,
 				23EFC1562409111200F73AC7 /* GoogleService-Info.plist */,
 				23EFC1342409088200F73AC7 /* Info.plist */,
+				23751E4B240923630078BD67 /* VocabModel.swift */,
 			);
 			path = vocabList;
 			sourceTree = "<group>";
@@ -155,7 +158,6 @@
 				DD638C98150FA53A08B0B08F /* Pods-vocabListTests.debug.xcconfig */,
 				924AC803E927DDE994DDD1C2 /* Pods-vocabListTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -409,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23751E4C240923630078BD67 /* VocabModel.swift in Sources */,
 				23EFC12B2409087B00F73AC7 /* ViewController.swift in Sources */,
 				23EFC1272409087B00F73AC7 /* AppDelegate.swift in Sources */,
 			);
