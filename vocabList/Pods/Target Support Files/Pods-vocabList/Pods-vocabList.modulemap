@@ -1,0 +1,6 @@
+framework module Pods_vocabList {
+  umbrella header "Pods-vocabList-umbrella.h"
+
+  export *
+  module * { export * }
+}
